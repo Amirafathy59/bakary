@@ -1,0 +1,326 @@
+*
+{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+/* start header*/
+.header
+{
+    text-align: center;
+    height: 100vh;
+    background-image: url(../assignment3/images/cover.jpg);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+ .content
+{
+    margin-top: 225px;
+    color: #FFF;
+    font-family: 'Alegreya', serif;
+}
+ h1 { font-size: 60px; margin-bottom: 18px}
+.header .content p {font-size: 24px; margin:10px 0 18px ;line-height: 38px;}
+.header .content span {margin-bottom: 20px; font-size: 18px;}
+.header .content .btn
+{
+     margin: 30px 0 0 5px;
+     padding: 15px 28px; 
+     color: #FFF;
+     font-weight: bold;
+     border-radius: 5px;
+}
+.header .content .btn1{background-color:#8e7754 ; border: 2px solid transparent;}
+.header .content .btn2{background-color:transparent ;border-color: #fff}
+
+
+/* End header*/
+
+/*start intro*/
+.intro {overflow: auto; margin:  50px;}
+.intro .intro-img{ width: 40%;float: left;}
+.intro .intro-img img {width: 100%;margin: 10px 10px 10px 60px }
+.intro .intro-info {width: 60%;float: left;}
+.intro .intro-info p { text-align: center;line-height: 1.86em;}
+.clr { clear: both;}
+.intro .intro-info h2
+{
+     
+     padding-left: 70px;
+     margin:50px 0 30px 50px;
+     font-size:30px;
+     font-family: 'Alegreya', serif
+}
+.intro .intro-info li{ list-style: none;line-height: 4; text-align: center;}
+ 
+@media screen and (min-width:992px) and (max-width:1200px)
+{
+ 
+    .intro .intro-img , .intro .intro-info
+  {
+      width: 50%;
+  }
+ 
+}
+@media screen and (min-width:768px) and (max-width:991px)
+{
+  .intro .intro-img , .intro .intro-info
+   {
+      width: 75%;
+   }
+   
+}
+@media screen and (min-width:600px) and (max-width:767px)
+{
+     .intro .intro-img , .intro .intro-info
+
+    {  
+        width:100%;
+
+       
+    }
+    .intro .intro-info{
+        color: aqua;
+        background-color: #8e7754;
+        border-radius: 15px;
+       
+    }
+    
+} 
+@media screen and (max-width:599px)
+{
+    .intro .intro-img , .intro .intro-info
+    {
+        width: 100%;
+    }
+} 
+
+ 
+/*End intro*/
+
+/*srart location*/
+
+.location 
+{
+     background:#f8f8f8;
+     overflow:outo; 
+     font-family: 'Alegreya', serif;
+}  
+.location .loc-data {width: 50%;float: left; text-align: center;}
+.location .loc-data p {line-height: 1.86em; margin: 20px 90px }
+.location .loc-data h2 {padding: 60px  400px 30px 0; font-size: 30px;}
+.location .loc-img {width: 50%;float: left;}
+.clr {clear: both;}
+.location .loc-img img { width:95%; margin:auto ;padding: 50px; }
+
+@media screen and (min-width:992px) and (max-width:1200px)
+{
+ 
+    .location .loc-img , .location .loc-data
+  {
+      width: 50%;
+  }
+ 
+}
+@media screen and (min-width:768px) and (max-width:991px)
+{
+    .location .loc-img , .location .loc-data
+  {
+      width: 50%;
+  }
+}
+@media screen and (min-width:600px) and (max-width:767px)
+{
+    .location .loc-img , .location .loc-data
+    {
+        width:100%;
+    }
+} 
+@media screen and (max-width:599px)
+{
+    .location .loc-img , .location .loc-data
+    {
+        width: 100%;
+    }
+} 
+
+/*End location*/
+
+/*start Baking*/
+.bakings
+{
+    text-align: center;
+    width: 95%;
+    margin: 50px;
+    padding: 50px;
+    overflow: hidden;
+    font-family: 'Alegreya', serif;
+}
+.our-baking {padding-bottom: 30px;}
+.our-baking h3 { padding-bottom: 20px; font-size: 30px;}
+.baking {width: 32.333%;float: left; padding: 25px;}
+.bakings .baking .inner {background-color: tan;}
+.baking h4{font-size: 18px; padding-bottom: 10px;}
+.baking p {line-height: 1.6; padding:10px ;}
+.baking img {width:100%;}
+@media screen and (min-width:992px) and (max-width:1200px)
+{
+ 
+  .baking
+  {
+      width: 50%;
+  }
+ 
+}
+@media screen and (min-width:768px) and (max-width:991px)
+{
+  .baking
+  {
+      width: 50%;
+  }
+}
+@media screen and (min-width:600px) and (max-width:767px)
+{
+    .baking
+    {
+        width:100%;
+    }
+} 
+@media screen and (max-width:599px)
+{
+    .baking
+    {
+        width: 100%;
+    }
+} 
+
+
+/*End Baking*/
+
+/*start contact*/
+.contact
+{
+    background-color:#f8f8f8;
+    padding: 40px;
+    overflow:hidden;
+}
+.contact .contact-info
+{
+    width:50% ;
+    float: left;
+    padding-top:80px;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+}
+.contact .map{width: 50%;float: left;padding-bottom:40px;}
+.contact .map iframe {width: 90%;}
+.contact .contact-info h2{ padding-right:140px ;}
+.contact .contact-info p {line-height: 1.6;padding:15px 0px 10px 50px}
+.contact .contact-info .contact-list{list-style: none;}
+.contact .contact-info .contact-list ul {padding-right: 20px;font-weight: bold;}
+@media screen and (min-width:992px) and (max-width:1200px)
+{
+    .contact .map , .contact .contact-info
+    {
+      width: 50%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px)
+{
+    .contact .map , .contact .contact-info
+   {
+      width: 75%;
+   }
+}
+@media screen and (min-width:600px) and (max-width:767px)
+{
+    .contact .map , .contact .contact-info
+    {
+        width:100%;
+    }
+} 
+@media screen and (max-width:599px)
+{
+    .contact .map , .contact .contact-info
+    {
+        width: 100%;
+    }
+} 
+
+/*end contact*/
+
+/*start Footer*/
+.footer
+{
+    background-color: #403d38;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    padding: 80px;
+    color: #969696;
+    font-family: 'Alegreya', serif;
+}
+.footer .part1 {width: 22%;float: left;line-height: 1.6;}
+.footer .part2 {width: 22%;float: left;}
+.footer .part3 {width: 22%; float: left;}
+.footer .part4
+{
+    width: 34%;
+    float: left;
+    height:40% ;
+    background-image: url(../assignment3/images/f.png);
+    background-position: center center;
+    background-size: cover;
+}
+.footer .part2 ul,.part3 ul,.part4 ul {list-style: none;line-height: 1.6;}
+.footer .part2 h5,.part3 h5,.part4 h5,.part1 h5
+{
+    padding-bottom: 40px;
+    color: #FFF;
+    font-size: 17px;
+    font-family: 'Alegreya'
+}
+
+@media screen and (min-width:992px) and (max-width:1200px)
+{
+   .footer .part1 , .footer.part2 , .footer.part3 , .footer.part4
+
+    {
+      width: 33.333%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px)
+{
+    .footer .part1 , .footer.part2 ,.footer.part3 , .footer .part4
+     {
+      width: 50%;
+     }
+}
+@media screen and (min-width:600px) and (max-width:767px)
+{
+    .footer .part1 , .footer .part2 , .footer.part3 , .footer .part4
+      {
+        width:100%;
+      }
+} 
+@media screen and (max-width:599px)
+{
+    .footer .part1 , .footer .part2 , .footer.part3 , .footer .part4
+     {
+        width: 100%;
+     }
+} 
+
+.lfooter {background-color: #353330; text-align: center;   ;
+}
+.lfooter img { margin:50px;}
+.lfooter span 
+{ 
+    display: block;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #969696;
+}
+/*End Footer*/
+
+
